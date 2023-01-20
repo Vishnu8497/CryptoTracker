@@ -1,0 +1,85 @@
+.plan {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.plan h1{
+    margin-top: 75px;
+
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+}
+
+.planDetails {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.premiumPlan{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+    max-width: 300px;
+    height: 900px;
+}
+
+.premiumPlan h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    background: linear-gradient(270.35deg, #ff9d71 .3%, #ff6398 51.55%, #cf5cff 99.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.optionItem{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.premiumPlan button{
+    cursor: pointer;
+    background-color: #cf5cff;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 30px 0;
+}
+
+.currentPlan{
+    border: 1px solid rgb(155, 152, 152);
+    border-radius: 20px;
+    padding: 40px;
+    width: 300px;
+    height: 850px;
+}
+
+.currentPlan button{
+    cursor: pointer;
+    background-color:rgb(155, 152, 152);
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 30px 0;
+}
+
+.currentPlan p{
+    color: rgb(150, 145, 145);
+}

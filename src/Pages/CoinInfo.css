@@ -1,0 +1,10 @@
+.coinInfo{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100ww;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+

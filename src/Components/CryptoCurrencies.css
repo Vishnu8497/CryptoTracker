@@ -1,0 +1,73 @@
+.crptoTracker {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.crptoTracker h1 {
+    margin-top: 100px;
+}
+
+.search {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.data img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+
+}
+
+
+.data p {
+    color: white;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.coinName {
+    display: flex;
+    flex-direction: column;    
+}
+
+.coinName p:first-child {
+    font-size: 18px;
+    color: grays;
+}
+
+.pagination {
+    background-color: orange;
+    color: black;
+
+}

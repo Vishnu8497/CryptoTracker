@@ -1,0 +1,14 @@
+.chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 40;
+
+}
+
+.chartGraph{
+    margin-top: 100px;
+    width: 60vw;
+}

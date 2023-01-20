@@ -1,0 +1,14 @@
+.selectButton{
+    border-radius: 5;
+    border: 2px solid orange;
+    padding: 5px;
+    text-align: center;
+    width:100px;
+    height: 30px;
+}
+
+.selectButton:hover{
+    background-color:orange;
+    color: black;
+    cursor: pointer;
+}

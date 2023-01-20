@@ -1,0 +1,24 @@
+.coin{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    color: white;
+}
+
+.coin img{
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.coin p{
+    margin: 0 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.coin h2:last-child{
+    margin-top: -10px;
+}
